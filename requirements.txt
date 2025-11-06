@@ -1,0 +1,16 @@
+captum
+einops
+joblib
+natsort
+noise
+numpy
+pandas
+pytorch_metric_learning
+scikit_learn
+scipy
+tabulate
+timm
+tqdm
+torchinfo
+torchviz
+transformers==4.53.2
