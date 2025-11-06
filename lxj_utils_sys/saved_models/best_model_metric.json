@@ -1,6 +1,0 @@
-{
-    "best_metric": 0.92,
-    "save_epoch": 0,
-    "metric_name": "accuracy",
-    "Mode": "max"
-}

@@ -10,7 +10,7 @@ import os
 from util import measurement, compute_metric
 import warnings
 from lxj_utils_sys import BaseLogger, ModelCheckpoint, str_to_bool, same_seed, LearningRateScheduler, print_dict
-from lxj_utils_user import IncrementalMeanCalculator
+from lxj_utils_sys import IncrementalMeanCalculator
 from util import parse_value
 
 from LitePrint import get_model_and_dataloader, load_data

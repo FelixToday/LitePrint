@@ -3,7 +3,7 @@
 # @Author : 李先军
 
 # @Time : 2025/3/20 下午3:05
-from .utils import print_colored, print_title, sort_lists, str_to_bool, same_seed, print_dict
+from .utils import print_colored, print_title, sort_lists, str_to_bool, same_seed, print_dict, IncrementalMeanCalculator
 from .logger import BaseLogger
 from .graph import save_plot
 from .savemodel import ModelCheckpoint

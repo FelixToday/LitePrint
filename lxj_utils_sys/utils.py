@@ -95,5 +95,21 @@ def same_seed(fix_seed):
 def print_dict(d):
     import json
     print(json.dumps(d, indent=4, ensure_ascii=False))
+
+class IncrementalMeanCalculator:
+    def __init__(self):
+        self.total = 0
+        self.count = 0
+
+    def add(self, new_value):
+        self.count += 1
+        self.total += new_value
+
+    def get(self):
+        if self.count == 0:
+            return 0
+        else:
+            return self.total / self.count
+
 if __name__ == '__main__':
     print_title("你好")
