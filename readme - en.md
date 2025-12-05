@@ -23,7 +23,14 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 # Dataset
 
 All datasets can be downloaded at https://zenodo.org/records/14195051
-
+Then drop the dataset into the npz_dataset project folder below
+File Structure:
+LitePrint
+    /npz_dataset
+        /CW
+        /OW
+        ...
+        
 # Single-stream Execution - CW
 
 ``` bash
