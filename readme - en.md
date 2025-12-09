@@ -31,6 +31,15 @@ LitePrint
         /OW
         ...
         
+
+# Enter the working directory
+```bash
+screen -S runner
+conda activate myenv
+cd /root/autodl-tmp/lixianjun/LitePrint/LitePrint_run
+export PYTHONPATH=$PYTHONPATH:/root/autodl-tmp/lixianjun/LitePrint
+```
+
 # Single-stream Execution - CW
 
 ``` bash
